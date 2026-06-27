@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.pytest_cache/
+.cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Project-specific ignores
+# Local database
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ML Models (YOLO / InsightFace weights)
+models/
+
+# Log files
+logs/
+test_logs/
+test_flow_logs/
+
+# Backups
+backups/
+test_backups/
+test_flow_backups/
+
+# Captured assets/media (runtime outputs)
+assets/photos/*
+!assets/photos/.gitkeep
+assets/snapshots/*
+!assets/snapshots/.gitkeep
+assets/test_photos/*
+!assets/test_photos/.gitkeep
+assets/test_snapshots/*
+!assets/test_snapshots/.gitkeep
+assets/test_flow_photos/*
+!assets/test_flow_photos/.gitkeep
+assets/test_flow_snapshots/*
+!assets/test_flow_snapshots/.gitkeep
