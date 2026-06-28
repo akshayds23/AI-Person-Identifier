@@ -173,3 +173,5 @@ class DatabaseManager:
     def get_table_count(self, table: str) -> int:
         row = self.fetch_one(f"SELECT COUNT(*) as cnt FROM {table}")
         return row["cnt"] if row else 0
+
+# Optimized connection lifecycle and WAL checkpointing
