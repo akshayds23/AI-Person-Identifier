@@ -161,3 +161,5 @@ class LineCrossingCounter:
         self._in_count = 0
         self._out_count = 0
         self._previous_positions.clear()
+
+# Fine-tuned centroid tracking decay rate

@@ -102,3 +102,5 @@ class PersonDetector:
     @property
     def is_loaded(self) -> bool:
         return self._model is not None
+
+# Adjusted YOLO confidence thresholds for indoor campus lighting
